@@ -1,0 +1,53 @@
+@charset "windows-1251";
+/* CSS Document */
+*
+{
+	font-family:Verdana;
+	font-size:11px;
+}
+.main_header
+{
+	width:800px; 
+	margin-left:15%;
+	margin-bottom:5px;
+	height:30px; 
+	border:dotted #999999 1px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.main_content
+{
+	float: left;
+	width:550px; 
+	height:500px;
+	margin-left:15%; 
+	margin-bottom:5px;
+	border:dotted #999999 1px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.main_sider
+{
+	float: left;
+	width:233px; 
+	height:500px; 
+	margin-left:5px; 
+	border:dotted #999999 1px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.main_bottom
+{
+	
+	clear: left;
+	width:800px; 
+	margin-left:15%; 
+	height:30px;
+	border:dotted #999999 1px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+}

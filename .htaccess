@@ -1,0 +1,20 @@
+RewriteEngine on
+RewriteBase /
+
+# Модуль mod_pager
+# RewriteRule ^([A-Za-z0-9-_]+)/?$ index.php?key=$1 [L]  # (модуль pager) вывод контента по одному параметру
+# RewriteRule ^([A-Za-z0-9-_]+)/([^/]+)/?$ index.php?parametr=$1&key=$2 [L]  # (модуль pager) вывод контента по двум параметрам
+
+RewriteRule ^content/([^/]+)/?$ index.php?parametr=content&key=$1 [L]  # вывод контента по двум параметрам
+RewriteRule ^content_date/([^/]+)/?$ index.php?parametr=content_date&key=$1 [L]  # вывод контента по двум параметрам
+RewriteRule ^content_autor/([^/]+)/?$ index.php?parametr=content_autor&key=$1 [L]  # вывод контента по двум параметрам
+RewriteRule ^tema/([^/]+)/?$ index.php?parametr=tema&key=$1 [L]  # вывод контента по двум параметрам
+RewriteRule ^tip/([^/]+)/?$ index.php?parametr=tip&key=$1 [L]  # вывод контента по двум параметрам
+RewriteRule ^content_title/([^/]+)/?$ index.php?parametr=content_title&key=$1 [L]  # вывод контента по двум параметрам
+RewriteRule ^content_shortpost/([^/]+)/?$ index.php?parametr=content_shortpost&key=$1 [L]  # вывод контента по двум параметрам
+RewriteRule ^content_fullpost/([^/]+)/?$ index.php?parametr=content_fullpost&key=$1 [L]  # вывод контента по двум параметрам
+
+# Модуль mod_publikator
+RewriteRule ^id/([0-9]+)/?$ index.php?id=$1 [L]  # (модуль pager) вывод контента по двум параметрам
+RewriteRule ^editnews/([0-9]+)/?$ index.php?do=editnews&id=$1 [L]  # (модуль pager) вывод контента по двум параметрам
+RewriteRule ^dellnews/([0-9]+)/?$ index.php?do=dellnews&id=$1 [L]  # (модуль pager) вывод контента по двум параметрам

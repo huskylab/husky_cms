@@ -1,0 +1,31 @@
+id                     | (число) | $post[$number]["id"]        |
+название               | (текст) | $post[$number]["title"]     |
+полная новость         | (текст) | $post[$number]["full_new"]  |
+краткая новость        | (текст) | $post[$number]["short_new"] |
+категория              | (array) | $post[$number]["category"] |
+ярлык                  | (array) | $post[$number]["label"]    |
+дата добавления        | (array) | $post[$number]["date_add"]  |
+дата редактирования    | (array) | $post[$number]["date_edit"] |
+редактор               | (текст) | $post[$number]["editor"]    |
+автор                  | (текст) | $post[$number]["autor"]     |
+рейтинг                | (число) | $post[$number]["rang"]      |
+число просмотров       | (число) | $post[$number]["views"]     |
+резервная              | (array) | $post[$number]["dop"]       |
+
+----------------------------------
+
+коментарии             | (array) | $post[$number]["cometarii"] |
+
+дата добавления, дата редактирования
+- год
+- месяц
+- день
+- час
+- минута
+
+коментарии
+- id
+- коментарий
+- автор
+- дата (array)
+- рейтинг коментария
